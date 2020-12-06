@@ -22,7 +22,7 @@ int main() {
         printf("child pid: %d\n",getpid());
         int bed = rand()%9+2;
         sleep(bed);
-        printf("the child has awoken\n");
+        printf("\nthe child has awoken\n");
 
         return bed;
     }
